@@ -42,7 +42,7 @@ In nano search a uncomment line
 ```
 max_prepared_transactions = 100
 ```
-Download this [file]() and this [file]()
+Download this [file](https://www.dropbox.com/s/6f8azu8yotcz5ic/dependencies.zip?dl=0) and this [file]()
 
 In terminal
 ```
