@@ -80,7 +80,7 @@ sudo cp /opt/dependencies/grpc/lib/libaddress_sorting.so /usr/lib/x86_64-linux-g
 
 # Run Iroha
 On each machine do the following
-1. Open the [genesis.block](genesis.block) file and update the 'address' entry to correspond the ip of each machine. Example the entry:
+1. Open the [genesis.block](genesis.block) file and update the 'address' entry to correspond the ip of each machine. For example, the entry:
 ```json
 "peer":{
         "address":"99.230.31.239:10001",
