@@ -1,17 +1,14 @@
-# Distributed Privacy-Aware Choice Modelling using Federated Learning
+# Privacy-Aware Distributed Choice Modelling over Blockchain
 
-Using the distributed principles of the blockchain, we propose a federated learning model for choice modelling which is able to process distributed data from different sources without: 
-1. Sharing personal raw information 
-2. Requiring to send the information to central cloud servers. 
-
-Users are always in control of their information as no raw personal information is shared and all transaction of information are recorded on the blockchain, so the users can track where their information is used
+A distributed tool for mode choice modelling is presented, where participants do not share personal raw data, while all computations are done locally. Participants share information using the Blockchain for Smart Mobility Data-market (BSMD), where all transactions are secure and private. Nodes in BSMD can transact information with other participants as long as both parties agree to the transaction rules issued by the owner of the data. We discus the advantages and challenges of distributing choice models over the Blockchain. We present a study case for mode choice modeling using _Maximum Loglikehood method_ and solve the parameter estimation problem on a distributed version of simulated annealing. It is demonstrated that the estimated model parameters are consistent and reproducible
 
 ## Getting Started
 
 1. To install the Iroha blockchain go to [network](network/)
 
-2. To create the Federating Learining application go to [federated](federated/)
+2. To solve the _Maximum Loglikehood method_ using a distributed version of simulated annealing go to  [loglikehood](loglikehood/)
 
 ### Prerequisites
 1. [Python 3](https://www.python.org/download/releases/3.0/)
 3. [PostgreSQL](https://www.postgresql.org/)
+4. [Iorha](https://github.com/hyperledger/iroha)
