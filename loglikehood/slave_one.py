@@ -21,7 +21,11 @@ slave_account_id = slave_name + '@' + domain_id
 iroha_slave = Iroha('slave1@choice')
 # set the ip of one node in the iroha blockchain
 asset_id = 'choicecoin#choice'
+
+##################################
+# Set corresponding IP
 network = IrohaGrpc('18.216.92.47:50051')
+##################################
 
 
 def model(beta_car, beta_cost, beta_tt):

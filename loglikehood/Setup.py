@@ -11,9 +11,13 @@ if sys.version_info[0] < 3:
 admin_private_key = 'f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70'
 iroha = Iroha('admin@test')
 # set the ip of one node in the iroha blockchain
-network = IrohaGrpc('3.16.203.141:50051')
 asset_id = 'choicecoin#choice'
 domain_id = 'choice'
+
+##################################
+# Set corresponding ip
+network = IrohaGrpc('3.16.203.141:50051')
+##################################
 
 # function to create private keys
 # private_key = IrohaCrypto.private_key()

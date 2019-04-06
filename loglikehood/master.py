@@ -22,8 +22,12 @@ master_account_id = master_name + '@' + domain_id
 master_iroha = Iroha('master@choice')
 # set the ip of one node in the iroha blockchain
 asset_id = 'choicecoin#choice'
-network = IrohaGrpc('3.16.203.141:50051')
 
+
+##################################
+# Set corresponding IP
+network = IrohaGrpc('3.16.203.141:50051')
+##################################
 
 ##################################
 # function of choice modelling
