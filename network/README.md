@@ -8,6 +8,7 @@ In terminal do
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get -y --no-install-recommends install apt-utils software-properties-common wget
+sudo apt-get install bison
 sudo add-apt-repository -y ppa:git-core/ppa
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
