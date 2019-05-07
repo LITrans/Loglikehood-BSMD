@@ -43,7 +43,7 @@ In nano search a uncomment line
 ```
 max_prepared_transactions = 100
 ```
-Download [dependicies](https://www.dropbox.com/s/6f8azu8yotcz5ic/dependencies.zip?dl=0) package and [iroha](https://www.dropbox.com/s/a886c3bl38qg5le/iroha.tar.xz?dl=0) installation file. Or you can build iroha by yourself using this [guide](https://github.com/hyperledger/iroha/blob/master/docker/dependencies/Dockerfile)
+Download [dependicies](https://www.dropbox.com/s/6f8azu8yotcz5ic/dependencies.zip?dl=0) package and [iroha](https://www.dropbox.com/s/yx5cjavxvnk3exh/build-deb.zip?dl=0) installation folder. Or you can build iroha by yourself using this [guide](https://github.com/hyperledger/iroha/blob/master/docker/dependencies/Dockerfile)
 
 In terminal
 ```
