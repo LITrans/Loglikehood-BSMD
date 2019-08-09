@@ -11,4 +11,4 @@ A distributed tool for mode choice modelling is presented, where participants do
 ### Prerequisites
 1. [Python 3](https://www.python.org/download/releases/3.0/)
 3. [PostgreSQL](https://www.postgresql.org/)
-4. [Iorha](https://github.com/hyperledger/iroha)
+4. [Iroha](https://github.com/hyperledger/iroha)
