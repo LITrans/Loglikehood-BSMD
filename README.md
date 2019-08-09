@@ -6,7 +6,7 @@ A distributed tool for mode choice modelling is presented, where participants do
 
 1. To install the Iroha blockchain go to [network](network/)
 
-2. To solve the _Maximum Loglikehood method_ using a distributed version of simulated annealing go to  [loglikehood](loglikehood/)
+2. To solve the _Maximum Loglikehood method_ using a distributed version of simulated annealing go to  [loglikelihood](loglikelihood/)
 
 ### Prerequisites
 1. [Python 3](https://www.python.org/download/releases/3.0/)
